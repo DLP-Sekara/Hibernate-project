@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="AddStudentForm" prefHeight="700.0" prefWidth="750.0" styleClass="backgroundColor" stylesheets="@../asserts/css/stylr.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddNewStudentFormController">
+<AnchorPane fx:id="AddStudentForm" prefHeight="700.0" prefWidth="750.0" styleClass="backgroundColor" stylesheets="@../assets/css/stylr.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddNewStudentFormController">
    <children>
       <Label layoutX="42.0" layoutY="12.0" text="Add New Student">
          <font>
@@ -23,7 +23,7 @@
       <JFXTextField fx:id="txtStudentName" labelFloat="true" layoutX="71.0" layoutY="108.0" prefHeight="25.0" prefWidth="603.0" promptText="Student Name" />
       <JFXTextField fx:id="txtStudentAddress" labelFloat="true" layoutX="71.0" layoutY="148.0" prefHeight="25.0" prefWidth="603.0" promptText="Address" />
       <JFXComboBox fx:id="comboSelectProgram" layoutX="71.0" layoutY="195.0" prefHeight="25.0" prefWidth="603.0" promptText="Select Program" />
-      <TableView fx:id="tblStudent" layoutX="71.0" layoutY="316.0" prefHeight="367.0" prefWidth="603.0" stylesheets="@../asserts/css/stylr.css">
+      <TableView fx:id="tblStudent" layoutX="71.0" layoutY="316.0" prefHeight="367.0" prefWidth="603.0" stylesheets="@../assets/css/stylr.css">
         <columns>
           <TableColumn fx:id="colStudentId" prefWidth="110.0" text="Student NIC" />
           <TableColumn fx:id="colStudentName" prefWidth="139.0" text="Student name" />

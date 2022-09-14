@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="DashboardPage" prefHeight="700.0" prefWidth="750.0" styleClass="backgroundColor" stylesheets="@../asserts/css/stylr.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardFormController">
+<AnchorPane fx:id="DashboardPage" prefHeight="700.0" prefWidth="750.0" styleClass="backgroundColor" stylesheets="@../assets/css/stylr.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardFormController">
     <children>
         <Label alignment="CENTER" contentDisplay="CENTER" layoutX="255.0" layoutY="4.0" prefHeight="45.0" prefWidth="262.0" text="S I P S E W A N A " textAlignment="JUSTIFY" textFill="#ee0707">
             <font>
@@ -20,7 +20,7 @@
             <Glow />
          </effect>
         </Label>
-        <Button layoutX="163.0" layoutY="126.0" mnemonicParsing="false" onAction="#OpenAddStudentForm" prefHeight="40.0" prefWidth="214.0" stylesheets="@../asserts/css/stylr.css" text="+Add New Student">
+        <Button layoutX="163.0" layoutY="126.0" mnemonicParsing="false" onAction="#OpenAddStudentForm" prefHeight="40.0" prefWidth="214.0" stylesheets="@../assets/css/stylr.css" text="+Add New Student">
             <cursor>
                 <Cursor fx:constant="HAND" />
             </cursor>
@@ -28,7 +28,7 @@
             <Font size="17.0" />
          </font>
         </Button>
-        <Button layoutX="395.0" layoutY="127.0" mnemonicParsing="false" onAction="#OpenAddProgramForm" prefHeight="40.0" prefWidth="214.0" stylesheets="@../asserts/css/stylr.css" text="+Add New Program">
+        <Button layoutX="395.0" layoutY="127.0" mnemonicParsing="false" onAction="#OpenAddProgramForm" prefHeight="40.0" prefWidth="214.0" stylesheets="@../assets/css/stylr.css" text="+Add New Program">
             <cursor>
                 <Cursor fx:constant="HAND" />
             </cursor>
@@ -36,7 +36,7 @@
             <Font size="17.0" />
          </font>
         </Button>
-        <TableView fx:id="tblProgramDetails" layoutX="14.0" layoutY="201.0" prefHeight="477.0" prefWidth="721.0" stylesheets="@../asserts/css/stylr.css">
+        <TableView fx:id="tblProgramDetails" layoutX="14.0" layoutY="201.0" prefHeight="477.0" prefWidth="721.0" stylesheets="@../assets/css/stylr.css">
             <columns>
                 <TableColumn fx:id="colStudentId" prefWidth="116.0" text="Student ID" />
                 <TableColumn fx:id="colStudentName" prefWidth="145.0" text="Student name" />
