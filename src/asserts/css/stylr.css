@@ -1,0 +1,27 @@
+.backgroundColor{
+    -fx-background-color: linear-gradient( #74b9ff,#f5f6fa,#74b9ff);
+}
+.tblField{
+    -fx-border-color: #c7ecee;
+    -fx-background-color: linear-gradient( #74b9ff,#f5f6fa,#74b9ff);
+    -fx-border-radius: 8px;
+    -fx-font-size:15px;
+}
+.table-row-cell:selected {
+    /*-fx-font-weight: bold; !** Does work. *!
+    -fx-font-color: bold; !** Does work. *!
+    -fx-text-fill: red; !** Does NOT work. *!*/
+    -fx-text-background-color: Blue ;
+    -fx-font-weight: bold;
+}
+.button{
+    -fx-background-color: linear-gradient( #20bf6b,#f5f6fa);
+}
+/*.button:hover{*/
+/*   -fx-border-color: green;*/
+/*    -fx-background-size: 20px;*/
+/*    -fx-cursor: pointer;*/
+/*}*/
+/*.button>:hover{*/
+/*    -fx-cursor: pointer;*/
+/*}*/
